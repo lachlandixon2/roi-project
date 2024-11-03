@@ -20,7 +20,7 @@ export default function MainNavigator() {
         options={{
           tabBarLabel: "Home",
           tabBarIcon: ({ color, size }) => (
-            <MaterialIcons name="home" color={color} size={size} />
+            <MaterialIcons name="home" color={color} size={26} />
           ),
         }}
       />
@@ -30,7 +30,7 @@ export default function MainNavigator() {
         options={{
           tabBarLabel: 'Profile',
           tabBarIcon: ({ color, size }) => (
-            <MaterialIcons name='Profile' color={color} size={size} />
+            <MaterialIcons name='Profile' color={color} size={26} />
           ),
         }}
       /> */}
@@ -40,7 +40,7 @@ export default function MainNavigator() {
         options={{
           tabBarLabel: "Settings",
           tabBarIcon: ({ color, size }) => (
-            <MaterialIcons name="settings" color={color} size={size} />
+            <MaterialIcons name="settings" color={color} size={26} />
           ),
         }}
       />
@@ -50,7 +50,7 @@ export default function MainNavigator() {
         options={{
           tabBarLabel: "Help",
           tabBarIcon: ({ color, size }) => (
-            <MaterialIcons name="help" color={color} size={size} />
+            <MaterialIcons name="help" color={color} size={26} />
           ),
         }}
       />
